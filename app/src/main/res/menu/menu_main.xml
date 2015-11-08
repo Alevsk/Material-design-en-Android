@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alevsk.materialdesignapp.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:orderInCategory="1"
+        android:title="Busqueda"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_copy"
+        android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+        android:orderInCategory="2"
+        android:title="Copiar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_selectall"
+        android:icon="@drawable/abc_ic_menu_selectall_mtrl_alpha"
+        android:orderInCategory="3"
+        android:title="Seleccionar todo"
+        app:showAsAction="always" />
+</menu>
