@@ -7,6 +7,22 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_text">Dummy</string>
     <string name="open">Abierto</string>
     <string name="close">cerrado</string>
+
+    <string-array name="menu_list">
+        <item>Buscar</item>
+        <item>Lo que estoy viendo</item>
+        <item>Para mas tarde</item>
+        <item>Mi cuenta</item>
+    </string-array>
+
+    <array name="menu_icons">
+        <item>@drawable/ic_search</item>
+        <item>@drawable/ic_eye</item>
+        <item>@drawable/ic_ticket</item>
+        <item>@drawable/ic_account</item>
+    </array>
+
 </resources>
